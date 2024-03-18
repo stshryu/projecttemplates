@@ -8,7 +8,17 @@ Otherwise, running:
 
 `django-admin startproject [project-name]`
 
-Inside of the directory with the `Dockerfile` should create a new directory called `[project-name].
+Inside of the directory with the `Dockerfile` should create a new directory called `[project-name]. The project structure should look something like so:
+
+```
+root
+├── Dockerfile
+├── docker-compose.yml
+├── manage.py
+├── requirements.txt
+└── [project-name] 
+    └── ...
+```
 
 Remember to set the `settings.py` up correctly based on the database you want to have running, in this case our project uses
 
