@@ -8,8 +8,10 @@ Project structure should look like this:
 root
 ├── client/
 │   ├── Dockerfile
+│   ├── ... 
 ├── server/
 │   ├── Dockerfile 
+│   ├── ... 
 ├── docker-compose.yml
 └── README.md
 ```
